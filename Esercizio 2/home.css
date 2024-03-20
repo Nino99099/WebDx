@@ -1,0 +1,20 @@
+h1 {
+    color: #00ff00;
+    text-align: center;
+    max-width: 50%;
+}
+
+p {
+    color: #ffa500;
+    text-align: left;
+}
+
+.lilla {
+    color: #C8A2C8;
+    text-align: left;
+}
+
+.interlinea {
+    margin-top: -20px;
+    text-align: left;
+}

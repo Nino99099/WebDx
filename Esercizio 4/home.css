@@ -1,0 +1,122 @@
+/*Modifica Caratteri*/
+h2 {
+  font-family: Verdana, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(40, 122, 160)
+}
+
+h3 {
+  color: rgb(40, 122, 160);
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+/*Paragrafo e contenitore paragrafo*/
+p {
+  width: 700PX;
+  color: rgb(61, 61, 61);
+
+}
+
+.contenitorep {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 10000px;
+  text-align: center;
+}
+
+/*Sezioni del body*/
+header {
+  background-color: rgb(255, 186, 57);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  padding: 20px;
+}
+
+main {
+  background-color: rgb(255, 186, 57);
+  padding-top: 30px;
+}
+
+footer {
+  background-color: rgb(255, 186, 57);
+  padding-top: 40px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+}
+
+/*Modifica home page, sponge è il contenitore e artisti riguarda le singole immagini*/
+.sponge {
+  background-color: rgb(255, 186, 57);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: 2700px;
+  width: 100%;
+}
+
+.artisti {
+  width: 420px;
+  height: 420px;
+  padding: 20px;
+}
+
+/*Contenitore per flex artista 2*/
+section {
+  max-width: 1350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/*Singole immagini per flex artista 2*/
+figure {
+  border: 2px solid rgb(40, 122, 160);
+  margin: 60px;
+  padding: 10px;
+}
+
+/*Griglia artista 3*/
+.griglia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
+  margin-left: 100px;
+  margin-top: 100px;
+  width: auto;
+}
+
+/*Singole immagini per griglia artista 3*/
+.sole {
+  object-fit: cover;
+  border: 2px solid rgb(40, 122, 160);
+  padding: 10px;
+}
+
+/*Elementi hover*/
+.artisti:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.opere:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+a,
+.links:hover {
+  background-color: azure;
+}
+
+/*Stile dei link*/
+.links {
+  text-decoration: none;
+  color: rgb(40, 122, 160);
+  background-color: transparent;
+}
